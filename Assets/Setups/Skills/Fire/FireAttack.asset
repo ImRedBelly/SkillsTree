@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7630845c39b4cb3a416f7746f3ffd8b, type: 3}
+  m_Name: FireAttack
+  m_EditorClassIdentifier: 
+  typeSkill: 1
+  keySkill: FireAttack
+  iconSkill: {fileID: -47488015, guid: 9f1e08e4b1ae8e34cac67a0074830630, type: 3}
+  priceSkill: 0
+  nextSkillSetups:
+  - {fileID: 11400000, guid: 1ee9a1a2413378b4db493dce46824039, type: 2}
+  - {fileID: 11400000, guid: 3294bb38a6276f842972f67e1a2e8d8e, type: 2}

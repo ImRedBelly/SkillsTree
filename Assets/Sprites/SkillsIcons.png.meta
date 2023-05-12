@@ -129,13 +129,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: free_skills_0
+      name: SkillsIcons_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 96
-        width: 32
-        height: 32
+        y: 384
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -143,83 +143,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8a74696348ac0fe428e40bfec4f643ee
-      internalID: -192374582
+      spriteID: f7486600ffce05448901d2d35c7bf1b7
+      internalID: -47488015
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: free_skills_1
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 96
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0743d386f7f6eb244b3b66218645f1e8
-      internalID: -307262557
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: free_skills_2
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 96
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c9afcc893d296ae44b7f003e1db41d87
-      internalID: 1137267722
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: free_skills_3
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 96
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ae034d52adf482e4ab43e19cbab352d3
-      internalID: -974621359
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: free_skills_4
+      name: SkillsIcons_1
       rect:
         serializedVersion: 2
         x: 128
-        y: 96
-        width: 32
-        height: 32
+        y: 384
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -227,20 +164,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 18e9fe50c0f547f408b88ae9b67ab8f7
-      internalID: 887898690
+      spriteID: f89628ce48b60f549b21f5992867ed9c
+      internalID: -615145800
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: free_skills_5
+      name: SkillsIcons_2
       rect:
         serializedVersion: 2
-        x: 160
-        y: 96
-        width: 32
-        height: 32
+        x: 256
+        y: 384
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -248,20 +185,83 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 94ee9021edbcd4b409f5fc80c8d98e95
-      internalID: 865250303
+      spriteID: 62be0d8ac56b8f348af3e22aa74771b4
+      internalID: 459425600
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: free_skills_6
+      name: SkillsIcons_3
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dfa7cc532209bc4c811afb91e6cd1d0
+      internalID: -89539798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkillsIcons_4
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 234d81a080a5e8841b9bbdb7ec403400
+      internalID: 918809441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkillsIcons_5
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4aa5f766af19a643baab0dc59ee604c
+      internalID: -966473390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkillsIcons_6
       rect:
         serializedVersion: 2
         x: 0
-        y: 64
-        width: 32
-        height: 32
+        y: 256
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -269,83 +269,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f3f7157461e269d4ead4a9bb57c4909f
-      internalID: 722569974
+      spriteID: 8c527e1acbfec8f4a910a8d596491ea8
+      internalID: 1454796527
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: free_skills_7
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 64
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c39e08fd95ef55c46915dd58c21982ed
-      internalID: 1791079735
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: free_skills_8
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 64
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5b6ee17c46282d34fb45320087b735e5
-      internalID: 104540270
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: free_skills_9
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 64
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 440decf9f6c3fc949b322360d046968b
-      internalID: 1046640419
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: free_skills_10
+      name: SkillsIcons_7
       rect:
         serializedVersion: 2
         x: 128
-        y: 64
-        width: 32
-        height: 32
+        y: 256
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -353,20 +290,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6a4acd4df1bd80b4e9819ca05ad2c7f2
-      internalID: -1659406238
+      spriteID: 897566e6ff973914e8948d6da76675f4
+      internalID: 588970347
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: free_skills_11
+      name: SkillsIcons_8
       rect:
         serializedVersion: 2
-        x: 160
-        y: 64
-        width: 32
-        height: 32
+        x: 256
+        y: 256
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -374,20 +311,83 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 685e3caa462552840b4caac124695c5c
-      internalID: 1664797352
+      spriteID: b025d215fbd0ab84c98d61e12530d562
+      internalID: 223856174
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: free_skills_12
+      name: SkillsIcons_9
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be4628f10fc041e4e83978d6d6d5590f
+      internalID: 464151700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkillsIcons_10
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68961573ebfdc9942b9a0919442e9b75
+      internalID: 1682531934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkillsIcons_11
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7b42faaa03c9ca4e822d08e97e4b3f2
+      internalID: -1634816903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkillsIcons_12
       rect:
         serializedVersion: 2
         x: 0
-        y: 32
-        width: 32
-        height: 32
+        y: 128
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -395,83 +395,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 938c7b3017248a5499f9ce3613030761
-      internalID: -2120740536
+      spriteID: 60c16eb99c338a24bba0eb2fb2b15a63
+      internalID: 590100299
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: free_skills_13
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 32
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ec492d1b422940e4da6229b9e72c919b
-      internalID: 1521680677
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: free_skills_14
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 32
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1e4375713d7180c458500f6af9df1a6d
-      internalID: 1398165336
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: free_skills_15
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 32
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c8a1b921140b01a47b511a173d13d1f8
-      internalID: -144392219
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: free_skills_16
+      name: SkillsIcons_13
       rect:
         serializedVersion: 2
         x: 128
-        y: 32
-        width: 32
-        height: 32
+        y: 128
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -479,20 +416,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f7b8c861a4813b443b36baec1ddc1fec
-      internalID: -463145329
+      spriteID: bcfcb60942b696247b09a6d1b6d59144
+      internalID: -32916077
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: free_skills_17
+      name: SkillsIcons_14
       rect:
         serializedVersion: 2
-        x: 160
-        y: 32
-        width: 32
-        height: 32
+        x: 256
+        y: 128
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -500,20 +437,83 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9d54ef6de69a7dc46bc8574820a8cebc
-      internalID: 1576972935
+      spriteID: c953c10963f3fc5489d4adefa6118faa
+      internalID: 1707488616
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: free_skills_18
+      name: SkillsIcons_15
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 657a41e2c0c851945a4d55aa8b08f391
+      internalID: 16146555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkillsIcons_16
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab2b48f4a690220418c78dbe89976dc5
+      internalID: 1881446269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkillsIcons_17
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 922adfde6bd718c4081fd6da1b0f918c
+      internalID: -1141218518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkillsIcons_18
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 32
-        height: 32
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -521,83 +521,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1fe26467070d0144090b43e41e2220de
-      internalID: 1563841860
+      spriteID: 201f2e9b9f5e1084080c81c3ffa3e2e8
+      internalID: -494639964
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: free_skills_19
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f06455bfce63f96488a64f70a6c6491d
-      internalID: -1903983611
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: free_skills_20
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0e2c353a34747864398258338e49c951
-      internalID: 889832492
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: free_skills_21
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cb4bcc508fe40794882e3f1f8dc1aded
-      internalID: 1814721956
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: free_skills_22
+      name: SkillsIcons_19
       rect:
         serializedVersion: 2
         x: 128
         y: 0
-        width: 32
-        height: 32
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -605,20 +542,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 95a9442e9d8a78f46aedb5a79f2846f6
-      internalID: 629150715
+      spriteID: c214135c94b67c249960ee324bedb5e1
+      internalID: 290818684
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: free_skills_23
+      name: SkillsIcons_20
       rect:
         serializedVersion: 2
-        x: 160
+        x: 256
         y: 0
-        width: 32
-        height: 32
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -626,8 +563,71 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6a6597644483f6e45a7e6d1b37846273
-      internalID: 596506664
+      spriteID: 62435e239bfd7714a99de45980be3854
+      internalID: 2050759221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkillsIcons_21
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcc1b4b3125669548b85250e050cfcaf
+      internalID: -1687794298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkillsIcons_22
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 933e90cb09657aa4d9dcadd22174bbb0
+      internalID: -1158183058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkillsIcons_23
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 146e5132524628541bab353705551e92
+      internalID: -776152075
       vertices: []
       indices: 
       edges: []
@@ -643,30 +643,30 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      free_skills_0: -192374582
-      free_skills_1: -307262557
-      free_skills_10: -1659406238
-      free_skills_11: 1664797352
-      free_skills_12: -2120740536
-      free_skills_13: 1521680677
-      free_skills_14: 1398165336
-      free_skills_15: -144392219
-      free_skills_16: -463145329
-      free_skills_17: 1576972935
-      free_skills_18: 1563841860
-      free_skills_19: -1903983611
-      free_skills_2: 1137267722
-      free_skills_20: 889832492
-      free_skills_21: 1814721956
-      free_skills_22: 629150715
-      free_skills_23: 596506664
-      free_skills_3: -974621359
-      free_skills_4: 887898690
-      free_skills_5: 865250303
-      free_skills_6: 722569974
-      free_skills_7: 1791079735
-      free_skills_8: 104540270
-      free_skills_9: 1046640419
+      SkillsIcons_0: -47488015
+      SkillsIcons_1: -615145800
+      SkillsIcons_10: 1682531934
+      SkillsIcons_11: -1634816903
+      SkillsIcons_12: 590100299
+      SkillsIcons_13: -32916077
+      SkillsIcons_14: 1707488616
+      SkillsIcons_15: 16146555
+      SkillsIcons_16: 1881446269
+      SkillsIcons_17: -1141218518
+      SkillsIcons_18: -494639964
+      SkillsIcons_19: 290818684
+      SkillsIcons_2: 459425600
+      SkillsIcons_20: 2050759221
+      SkillsIcons_21: -1687794298
+      SkillsIcons_22: -1158183058
+      SkillsIcons_23: -776152075
+      SkillsIcons_3: -89539798
+      SkillsIcons_4: 918809441
+      SkillsIcons_5: -966473390
+      SkillsIcons_6: 1454796527
+      SkillsIcons_7: 588970347
+      SkillsIcons_8: 223856174
+      SkillsIcons_9: 464151700
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

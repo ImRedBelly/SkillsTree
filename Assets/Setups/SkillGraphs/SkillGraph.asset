@@ -1,0 +1,1208 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8604004695921790077
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f0a7534610c4ecabe58ecfafea98c3b, type: 3}
+  m_Name: GroundAttack
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 232, y: -184}
+  ports:
+    keys:
+    - outputSkillNode
+    - inputSkillNode
+    values:
+    - _fieldName: outputSkillNode
+      _node: {fileID: -8604004695921790077}
+      _typeQualifiedName: OdinNode.SkillGraph.SkillDataNode, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: inputSkillNode
+        node: {fileID: -6137054196106128088}
+        reroutePoints: []
+      - fieldName: inputSkillNode
+        node: {fileID: -7749608989098305759}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: inputSkillNode
+      _node: {fileID: -8604004695921790077}
+      _typeQualifiedName: OdinNode.SkillGraph.SkillDataNode, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: outputSkillNode
+        node: {fileID: 7384637275397413554}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  skillSetup: {fileID: 11400000, guid: 20c5d7ca55e9a884baaf518f71487154, type: 2}
+  inputSkillNode: {fileID: 0}
+  outputSkillNode: {fileID: 0}
+--- !u!114 &-8089822903808980883
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f0a7534610c4ecabe58ecfafea98c3b, type: 3}
+  m_Name: LittleFireAttack1
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 552, y: 360}
+  ports:
+    keys:
+    - outputSkillNode
+    - inputSkillNode
+    values:
+    - _fieldName: outputSkillNode
+      _node: {fileID: -8089822903808980883}
+      _typeQualifiedName: OdinNode.SkillGraph.SkillDataNode, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: inputSkillNode
+        node: {fileID: -7189520485788344823}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: inputSkillNode
+      _node: {fileID: -8089822903808980883}
+      _typeQualifiedName: OdinNode.SkillGraph.SkillDataNode, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: outputSkillNode
+        node: {fileID: -6621370016746156928}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  skillSetup: {fileID: 11400000, guid: 1ee9a1a2413378b4db493dce46824039, type: 2}
+  inputSkillNode: {fileID: 0}
+  outputSkillNode: {fileID: 0}
+--- !u!114 &-8074713424995093070
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f0a7534610c4ecabe58ecfafea98c3b, type: 3}
+  m_Name: FireSword
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 1192, y: 648}
+  ports:
+    keys:
+    - inputSkillNode
+    - outputSkillNode
+    values:
+    - _fieldName: inputSkillNode
+      _node: {fileID: -8074713424995093070}
+      _typeQualifiedName: OdinNode.SkillGraph.SkillDataNode, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: outputSkillNode
+        node: {fileID: -7189520485788344823}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: outputSkillNode
+      _node: {fileID: -8074713424995093070}
+      _typeQualifiedName: OdinNode.SkillGraph.SkillDataNode, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  skillSetup: {fileID: 11400000, guid: 728ab7654181a654ba805f05efaf208c, type: 2}
+  inputSkillNode: {fileID: 0}
+  outputSkillNode: {fileID: 0}
+--- !u!114 &-7749608989098305759
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f0a7534610c4ecabe58ecfafea98c3b, type: 3}
+  m_Name: LittleGroundAttack1
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 552, y: 56}
+  ports:
+    keys:
+    - inputSkillNode
+    - outputSkillNode
+    values:
+    - _fieldName: inputSkillNode
+      _node: {fileID: -7749608989098305759}
+      _typeQualifiedName: OdinNode.SkillGraph.SkillDataNode, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: outputSkillNode
+        node: {fileID: -8604004695921790077}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: outputSkillNode
+      _node: {fileID: -7749608989098305759}
+      _typeQualifiedName: OdinNode.SkillGraph.SkillDataNode, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: inputSkillNode
+        node: {fileID: -188148381787277596}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  skillSetup: {fileID: 11400000, guid: a08dbecf99d35e34fbfaf387bb639c0e, type: 2}
+  inputSkillNode: {fileID: 0}
+  outputSkillNode: {fileID: 0}
+--- !u!114 &-7189520485788344823
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f0a7534610c4ecabe58ecfafea98c3b, type: 3}
+  m_Name: MidleFireAttack
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 904, y: 472}
+  ports:
+    keys:
+    - inputSkillNode
+    - outputSkillNode
+    values:
+    - _fieldName: inputSkillNode
+      _node: {fileID: -7189520485788344823}
+      _typeQualifiedName: OdinNode.SkillGraph.SkillDataNode, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: outputSkillNode
+        node: {fileID: -8089822903808980883}
+        reroutePoints: []
+      - fieldName: outputSkillNode
+        node: {fileID: -2864932180318985263}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: outputSkillNode
+      _node: {fileID: -7189520485788344823}
+      _typeQualifiedName: OdinNode.SkillGraph.SkillDataNode, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: inputSkillNode
+        node: {fileID: 7742090938547135282}
+        reroutePoints: []
+      - fieldName: inputSkillNode
+        node: {fileID: -8074713424995093070}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  skillSetup: {fileID: 11400000, guid: ca4a0784d8f1b434b9776d9cc8ecf8ff, type: 2}
+  inputSkillNode: {fileID: 0}
+  outputSkillNode: {fileID: 0}
+--- !u!114 &-6621370016746156928
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f0a7534610c4ecabe58ecfafea98c3b, type: 3}
+  m_Name: FireAttack
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 216, y: 456}
+  ports:
+    keys:
+    - outputSkillNode
+    - inputSkillNode
+    values:
+    - _fieldName: outputSkillNode
+      _node: {fileID: -6621370016746156928}
+      _typeQualifiedName: OdinNode.SkillGraph.SkillDataNode, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: inputSkillNode
+        node: {fileID: -8089822903808980883}
+        reroutePoints: []
+      - fieldName: inputSkillNode
+        node: {fileID: -2864932180318985263}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: inputSkillNode
+      _node: {fileID: -6621370016746156928}
+      _typeQualifiedName: OdinNode.SkillGraph.SkillDataNode, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: outputSkillNode
+        node: {fileID: 7384637275397413554}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  skillSetup: {fileID: 11400000, guid: 58e49bd7bd7099d49bddd7215f5a65c2, type: 2}
+  inputSkillNode: {fileID: 0}
+  outputSkillNode: {fileID: 0}
+--- !u!114 &-6137054196106128088
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f0a7534610c4ecabe58ecfafea98c3b, type: 3}
+  m_Name: LittleGroundAttack2
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 552, y: -280}
+  ports:
+    keys:
+    - outputSkillNode
+    - inputSkillNode
+    values:
+    - _fieldName: outputSkillNode
+      _node: {fileID: -6137054196106128088}
+      _typeQualifiedName: OdinNode.SkillGraph.SkillDataNode, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: inputSkillNode
+        node: {fileID: -188148381787277596}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: inputSkillNode
+      _node: {fileID: -6137054196106128088}
+      _typeQualifiedName: OdinNode.SkillGraph.SkillDataNode, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: outputSkillNode
+        node: {fileID: -8604004695921790077}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  skillSetup: {fileID: 11400000, guid: a0f2cb78dde72d8478a0864826806f14, type: 2}
+  inputSkillNode: {fileID: 0}
+  outputSkillNode: {fileID: 0}
+--- !u!114 &-5587236373291750453
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f0a7534610c4ecabe58ecfafea98c3b, type: 3}
+  m_Name: IceGolem
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 1160, y: -952}
+  ports:
+    keys:
+    - inputSkillNode
+    - outputSkillNode
+    values:
+    - _fieldName: inputSkillNode
+      _node: {fileID: -5587236373291750453}
+      _typeQualifiedName: OdinNode.SkillGraph.SkillDataNode, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: outputSkillNode
+        node: {fileID: 8778309666857998791}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: outputSkillNode
+      _node: {fileID: -5587236373291750453}
+      _typeQualifiedName: OdinNode.SkillGraph.SkillDataNode, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  skillSetup: {fileID: 11400000, guid: 486d7d7bb77ac5e4f90941d628ca19f0, type: 2}
+  inputSkillNode: {fileID: 0}
+  outputSkillNode: {fileID: 0}
+--- !u!114 &-3913295146445845938
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f0a7534610c4ecabe58ecfafea98c3b, type: 3}
+  m_Name: LittleWaterAttack2
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 568, y: -1304}
+  ports:
+    keys:
+    - inputSkillNode
+    - outputSkillNode
+    values:
+    - _fieldName: inputSkillNode
+      _node: {fileID: -3913295146445845938}
+      _typeQualifiedName: OdinNode.SkillGraph.SkillDataNode, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: outputSkillNode
+        node: {fileID: -1876891737691325377}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: outputSkillNode
+      _node: {fileID: -3913295146445845938}
+      _typeQualifiedName: OdinNode.SkillGraph.SkillDataNode, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: inputSkillNode
+        node: {fileID: 1608759466066384578}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  skillSetup: {fileID: 11400000, guid: 96217342000109d43a8c453b7c49b7cc, type: 2}
+  inputSkillNode: {fileID: 0}
+  outputSkillNode: {fileID: 0}
+--- !u!114 &-2864932180318985263
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f0a7534610c4ecabe58ecfafea98c3b, type: 3}
+  m_Name: LittleFireAttack2
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 552, y: 664}
+  ports:
+    keys:
+    - inputSkillNode
+    - outputSkillNode
+    values:
+    - _fieldName: inputSkillNode
+      _node: {fileID: -2864932180318985263}
+      _typeQualifiedName: OdinNode.SkillGraph.SkillDataNode, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: outputSkillNode
+        node: {fileID: -6621370016746156928}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: outputSkillNode
+      _node: {fileID: -2864932180318985263}
+      _typeQualifiedName: OdinNode.SkillGraph.SkillDataNode, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: inputSkillNode
+        node: {fileID: -7189520485788344823}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  skillSetup: {fileID: 11400000, guid: 3294bb38a6276f842972f67e1a2e8d8e, type: 2}
+  inputSkillNode: {fileID: 0}
+  outputSkillNode: {fileID: 0}
+--- !u!114 &-1876891737691325377
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f0a7534610c4ecabe58ecfafea98c3b, type: 3}
+  m_Name: WaterAttack
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 232, y: -1320}
+  ports:
+    keys:
+    - outputSkillNode
+    - inputSkillNode
+    values:
+    - _fieldName: outputSkillNode
+      _node: {fileID: -1876891737691325377}
+      _typeQualifiedName: OdinNode.SkillGraph.SkillDataNode, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: inputSkillNode
+        node: {fileID: 1496981537793133623}
+        reroutePoints: []
+      - fieldName: inputSkillNode
+        node: {fileID: -3913295146445845938}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: inputSkillNode
+      _node: {fileID: -1876891737691325377}
+      _typeQualifiedName: OdinNode.SkillGraph.SkillDataNode, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: outputSkillNode
+        node: {fileID: 7384637275397413554}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  skillSetup: {fileID: 11400000, guid: 6582527551b43c94bb7cc59784141ee4, type: 2}
+  inputSkillNode: {fileID: 0}
+  outputSkillNode: {fileID: 0}
+--- !u!114 &-1656814085983591784
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f0a7534610c4ecabe58ecfafea98c3b, type: 3}
+  m_Name: IceAttack
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 232, y: -744}
+  ports:
+    keys:
+    - outputSkillNode
+    - inputSkillNode
+    values:
+    - _fieldName: outputSkillNode
+      _node: {fileID: -1656814085983591784}
+      _typeQualifiedName: OdinNode.SkillGraph.SkillDataNode, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: inputSkillNode
+        node: {fileID: 8176758745003250933}
+        reroutePoints: []
+      - fieldName: inputSkillNode
+        node: {fileID: 6523951404445116425}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: inputSkillNode
+      _node: {fileID: -1656814085983591784}
+      _typeQualifiedName: OdinNode.SkillGraph.SkillDataNode, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: outputSkillNode
+        node: {fileID: 7384637275397413554}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  skillSetup: {fileID: 11400000, guid: 6082ddc0bd9dd5040b9cb7c1e239241f, type: 2}
+  inputSkillNode: {fileID: 0}
+  outputSkillNode: {fileID: 0}
+--- !u!114 &-1505836037867495658
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f0a7534610c4ecabe58ecfafea98c3b, type: 3}
+  m_Name: GroundGolem
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 1176, y: -328}
+  ports:
+    keys:
+    - inputSkillNode
+    - outputSkillNode
+    values:
+    - _fieldName: inputSkillNode
+      _node: {fileID: -1505836037867495658}
+      _typeQualifiedName: OdinNode.SkillGraph.SkillDataNode, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: outputSkillNode
+        node: {fileID: -188148381787277596}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: outputSkillNode
+      _node: {fileID: -1505836037867495658}
+      _typeQualifiedName: OdinNode.SkillGraph.SkillDataNode, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  skillSetup: {fileID: 11400000, guid: 2a89725336e846641a53dc6f4c90c8f7, type: 2}
+  inputSkillNode: {fileID: 0}
+  outputSkillNode: {fileID: 0}
+--- !u!114 &-899115219622899468
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f0a7534610c4ecabe58ecfafea98c3b, type: 3}
+  m_Name: WaterGolem
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 1192, y: -1576}
+  ports:
+    keys:
+    - inputSkillNode
+    - outputSkillNode
+    values:
+    - _fieldName: inputSkillNode
+      _node: {fileID: -899115219622899468}
+      _typeQualifiedName: OdinNode.SkillGraph.SkillDataNode, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: outputSkillNode
+        node: {fileID: 1608759466066384578}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: outputSkillNode
+      _node: {fileID: -899115219622899468}
+      _typeQualifiedName: OdinNode.SkillGraph.SkillDataNode, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  skillSetup: {fileID: 11400000, guid: eafceba681877394893ad169dfcb1023, type: 2}
+  inputSkillNode: {fileID: 0}
+  outputSkillNode: {fileID: 0}
+--- !u!114 &-188148381787277596
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f0a7534610c4ecabe58ecfafea98c3b, type: 3}
+  m_Name: MidleGroundAttack
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 904, y: -200}
+  ports:
+    keys:
+    - inputSkillNode
+    - outputSkillNode
+    values:
+    - _fieldName: inputSkillNode
+      _node: {fileID: -188148381787277596}
+      _typeQualifiedName: OdinNode.SkillGraph.SkillDataNode, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: outputSkillNode
+        node: {fileID: -6137054196106128088}
+        reroutePoints: []
+      - fieldName: outputSkillNode
+        node: {fileID: -7749608989098305759}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: outputSkillNode
+      _node: {fileID: -188148381787277596}
+      _typeQualifiedName: OdinNode.SkillGraph.SkillDataNode, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: inputSkillNode
+        node: {fileID: -1505836037867495658}
+        reroutePoints: []
+      - fieldName: inputSkillNode
+        node: {fileID: 1718825890447298432}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  skillSetup: {fileID: 11400000, guid: 7023ff7bb88dbfa43b00e861c8a9c88c, type: 2}
+  inputSkillNode: {fileID: 0}
+  outputSkillNode: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb3f801f366f45818a7c269ddc9322a8, type: 3}
+  m_Name: SkillGraph
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: -8604004695921790077}
+  - {fileID: 7384637275397413554}
+  - {fileID: -6137054196106128088}
+  - {fileID: -7749608989098305759}
+  - {fileID: -188148381787277596}
+  - {fileID: -1505836037867495658}
+  - {fileID: -1656814085983591784}
+  - {fileID: -6621370016746156928}
+  - {fileID: -1876891737691325377}
+  - {fileID: 1718825890447298432}
+  - {fileID: -8089822903808980883}
+  - {fileID: -2864932180318985263}
+  - {fileID: -7189520485788344823}
+  - {fileID: 7742090938547135282}
+  - {fileID: -8074713424995093070}
+  - {fileID: 8176758745003250933}
+  - {fileID: 6523951404445116425}
+  - {fileID: 8778309666857998791}
+  - {fileID: -5587236373291750453}
+  - {fileID: 792098977005077923}
+  - {fileID: 1496981537793133623}
+  - {fileID: -3913295146445845938}
+  - {fileID: 1608759466066384578}
+  - {fileID: -899115219622899468}
+  - {fileID: 3069189549178819749}
+--- !u!114 &792098977005077923
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f0a7534610c4ecabe58ecfafea98c3b, type: 3}
+  m_Name: IceSword
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 1176, y: -648}
+  ports:
+    keys:
+    - inputSkillNode
+    - outputSkillNode
+    values:
+    - _fieldName: inputSkillNode
+      _node: {fileID: 792098977005077923}
+      _typeQualifiedName: OdinNode.SkillGraph.SkillDataNode, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: outputSkillNode
+        node: {fileID: 8778309666857998791}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: outputSkillNode
+      _node: {fileID: 792098977005077923}
+      _typeQualifiedName: OdinNode.SkillGraph.SkillDataNode, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  skillSetup: {fileID: 11400000, guid: 335e35b8032df974c956fce0d69600b1, type: 2}
+  inputSkillNode: {fileID: 0}
+  outputSkillNode: {fileID: 0}
+--- !u!114 &1496981537793133623
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f0a7534610c4ecabe58ecfafea98c3b, type: 3}
+  m_Name: LittleWaterAttack1
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 568, y: -1608}
+  ports:
+    keys:
+    - outputSkillNode
+    - inputSkillNode
+    values:
+    - _fieldName: outputSkillNode
+      _node: {fileID: 1496981537793133623}
+      _typeQualifiedName: OdinNode.SkillGraph.SkillDataNode, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: inputSkillNode
+        node: {fileID: 1608759466066384578}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: inputSkillNode
+      _node: {fileID: 1496981537793133623}
+      _typeQualifiedName: OdinNode.SkillGraph.SkillDataNode, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: outputSkillNode
+        node: {fileID: -1876891737691325377}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  skillSetup: {fileID: 11400000, guid: 41f78e3775ae5ab48a5f50a2ee50d33a, type: 2}
+  inputSkillNode: {fileID: 0}
+  outputSkillNode: {fileID: 0}
+--- !u!114 &1608759466066384578
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f0a7534610c4ecabe58ecfafea98c3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 920, y: -1448}
+  ports:
+    keys:
+    - inputSkillNode
+    - outputSkillNode
+    values:
+    - _fieldName: inputSkillNode
+      _node: {fileID: 1608759466066384578}
+      _typeQualifiedName: OdinNode.SkillGraph.SkillDataNode, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: outputSkillNode
+        node: {fileID: 1496981537793133623}
+        reroutePoints: []
+      - fieldName: outputSkillNode
+        node: {fileID: -3913295146445845938}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: outputSkillNode
+      _node: {fileID: 1608759466066384578}
+      _typeQualifiedName: OdinNode.SkillGraph.SkillDataNode, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: inputSkillNode
+        node: {fileID: -899115219622899468}
+        reroutePoints: []
+      - fieldName: inputSkillNode
+        node: {fileID: 3069189549178819749}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  skillSetup: {fileID: 11400000, guid: ccb1e6e29d56c9542935be0630421747, type: 2}
+  inputSkillNode: {fileID: 0}
+  outputSkillNode: {fileID: 0}
+--- !u!114 &1718825890447298432
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f0a7534610c4ecabe58ecfafea98c3b, type: 3}
+  m_Name: GroundSword
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 1192, y: -24}
+  ports:
+    keys:
+    - inputSkillNode
+    - outputSkillNode
+    values:
+    - _fieldName: inputSkillNode
+      _node: {fileID: 1718825890447298432}
+      _typeQualifiedName: OdinNode.SkillGraph.SkillDataNode, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: outputSkillNode
+        node: {fileID: -188148381787277596}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: outputSkillNode
+      _node: {fileID: 1718825890447298432}
+      _typeQualifiedName: OdinNode.SkillGraph.SkillDataNode, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  skillSetup: {fileID: 11400000, guid: dc90e2c6d1321df458178ad9fc307791, type: 2}
+  inputSkillNode: {fileID: 0}
+  outputSkillNode: {fileID: 0}
+--- !u!114 &3069189549178819749
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f0a7534610c4ecabe58ecfafea98c3b, type: 3}
+  m_Name: WaterSword
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 1208, y: -1272}
+  ports:
+    keys:
+    - inputSkillNode
+    - outputSkillNode
+    values:
+    - _fieldName: inputSkillNode
+      _node: {fileID: 3069189549178819749}
+      _typeQualifiedName: OdinNode.SkillGraph.SkillDataNode, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: outputSkillNode
+        node: {fileID: 1608759466066384578}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: outputSkillNode
+      _node: {fileID: 3069189549178819749}
+      _typeQualifiedName: OdinNode.SkillGraph.SkillDataNode, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  skillSetup: {fileID: 11400000, guid: 5e72b0e925b90c146b4da4f56f30cff2, type: 2}
+  inputSkillNode: {fileID: 0}
+  outputSkillNode: {fileID: 0}
+--- !u!114 &6523951404445116425
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f0a7534610c4ecabe58ecfafea98c3b, type: 3}
+  m_Name: LittleIceAttack2
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 536, y: -632}
+  ports:
+    keys:
+    - inputSkillNode
+    - outputSkillNode
+    values:
+    - _fieldName: inputSkillNode
+      _node: {fileID: 6523951404445116425}
+      _typeQualifiedName: OdinNode.SkillGraph.SkillDataNode, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: outputSkillNode
+        node: {fileID: -1656814085983591784}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: outputSkillNode
+      _node: {fileID: 6523951404445116425}
+      _typeQualifiedName: OdinNode.SkillGraph.SkillDataNode, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: inputSkillNode
+        node: {fileID: 8778309666857998791}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  skillSetup: {fileID: 11400000, guid: 2cf4c49eff8b99443933cd0361f1bf78, type: 2}
+  inputSkillNode: {fileID: 0}
+  outputSkillNode: {fileID: 0}
+--- !u!114 &7384637275397413554
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f0a7534610c4ecabe58ecfafea98c3b, type: 3}
+  m_Name: MainSkill
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -552, y: -408}
+  ports:
+    keys:
+    - outputSkillNode
+    - inputSkillNode
+    values:
+    - _fieldName: outputSkillNode
+      _node: {fileID: 7384637275397413554}
+      _typeQualifiedName: OdinNode.SkillGraph.SkillDataNode, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: inputSkillNode
+        node: {fileID: -1656814085983591784}
+        reroutePoints: []
+      - fieldName: inputSkillNode
+        node: {fileID: -1876891737691325377}
+        reroutePoints: []
+      - fieldName: inputSkillNode
+        node: {fileID: -8604004695921790077}
+        reroutePoints: []
+      - fieldName: inputSkillNode
+        node: {fileID: -6621370016746156928}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: inputSkillNode
+      _node: {fileID: 7384637275397413554}
+      _typeQualifiedName: OdinNode.SkillGraph.SkillDataNode, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  skillSetup: {fileID: 11400000, guid: 3b7de5e2f63c05644956ae14ce1f4d43, type: 2}
+  inputSkillNode: {fileID: 0}
+  outputSkillNode: {fileID: 0}
+--- !u!114 &7742090938547135282
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f0a7534610c4ecabe58ecfafea98c3b, type: 3}
+  m_Name: FireGolem
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 1176, y: 344}
+  ports:
+    keys:
+    - inputSkillNode
+    - outputSkillNode
+    values:
+    - _fieldName: inputSkillNode
+      _node: {fileID: 7742090938547135282}
+      _typeQualifiedName: OdinNode.SkillGraph.SkillDataNode, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: outputSkillNode
+        node: {fileID: -7189520485788344823}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: outputSkillNode
+      _node: {fileID: 7742090938547135282}
+      _typeQualifiedName: OdinNode.SkillGraph.SkillDataNode, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  skillSetup: {fileID: 11400000, guid: 734ca8201dd4b1541b68eaa85d511a37, type: 2}
+  inputSkillNode: {fileID: 0}
+  outputSkillNode: {fileID: 0}
+--- !u!114 &8176758745003250933
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f0a7534610c4ecabe58ecfafea98c3b, type: 3}
+  m_Name: LittleIceAttack1
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 536, y: -904}
+  ports:
+    keys:
+    - outputSkillNode
+    - inputSkillNode
+    values:
+    - _fieldName: outputSkillNode
+      _node: {fileID: 8176758745003250933}
+      _typeQualifiedName: OdinNode.SkillGraph.SkillDataNode, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: inputSkillNode
+        node: {fileID: 8778309666857998791}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: inputSkillNode
+      _node: {fileID: 8176758745003250933}
+      _typeQualifiedName: OdinNode.SkillGraph.SkillDataNode, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: outputSkillNode
+        node: {fileID: -1656814085983591784}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  skillSetup: {fileID: 11400000, guid: efdcd0a39436d98458f1d330696eb0da, type: 2}
+  inputSkillNode: {fileID: 0}
+  outputSkillNode: {fileID: 0}
+--- !u!114 &8778309666857998791
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f0a7534610c4ecabe58ecfafea98c3b, type: 3}
+  m_Name: MidleIceAttack
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 888, y: -824}
+  ports:
+    keys:
+    - inputSkillNode
+    - outputSkillNode
+    values:
+    - _fieldName: inputSkillNode
+      _node: {fileID: 8778309666857998791}
+      _typeQualifiedName: OdinNode.SkillGraph.SkillDataNode, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: outputSkillNode
+        node: {fileID: 8176758745003250933}
+        reroutePoints: []
+      - fieldName: outputSkillNode
+        node: {fileID: 6523951404445116425}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: outputSkillNode
+      _node: {fileID: 8778309666857998791}
+      _typeQualifiedName: OdinNode.SkillGraph.SkillDataNode, Assembly-CSharp, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: inputSkillNode
+        node: {fileID: -5587236373291750453}
+        reroutePoints: []
+      - fieldName: inputSkillNode
+        node: {fileID: 792098977005077923}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  skillSetup: {fileID: 11400000, guid: 49462543ca8d1d04d939d6467257a2ce, type: 2}
+  inputSkillNode: {fileID: 0}
+  outputSkillNode: {fileID: 0}

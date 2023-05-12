@@ -1,10 +1,12 @@
 using UnityEngine;
 using UnityEngine.UI;
+using OdinNode.SkillGraph;
+using Setups;
 
 public class PathLineActivator : MonoBehaviour
 {
     [SerializeField] private Image iconPath;
-    [SerializeField] private ButtonSkillController[] buttonsCheck;
+    [SerializeField] private SkillSetup[] skillDataNodes;
     [SerializeField] private Color activateColor, deactivateColor;
 
     private void Start()
@@ -14,22 +16,26 @@ public class PathLineActivator : MonoBehaviour
 
     private void OnEnable()
     {
-        foreach (var buttonSkill in buttonsCheck)
-            buttonSkill.OnUpdateSkill += CheckStatePathLine;
+        foreach (var skillData in skillDataNodes)
+            skillData.OnBuySkill += CheckStatePathLine;
+        foreach (var skillData in skillDataNodes)
+            skillData.OnReverseSkill += CheckStatePathLine;
     }
 
     private void OnDisable()
     {
-        foreach (var buttonSkill in buttonsCheck)
-            buttonSkill.OnUpdateSkill -= CheckStatePathLine;
+        foreach (var skillData in skillDataNodes)
+            skillData.OnBuySkill -= CheckStatePathLine;
+        foreach (var skillData in skillDataNodes)
+            skillData.OnReverseSkill -= CheckStatePathLine;
     }
 
     private void CheckStatePathLine()
     {
         bool state = false;
-        foreach (var buttonSkill in buttonsCheck)
+        foreach (var skillData in skillDataNodes)
         {
-            state = buttonSkill.stateSkill == 2;
+            state = skillData.GetStateSkill() == StateSkill.Open;
             if (!state) break;
         }
 
