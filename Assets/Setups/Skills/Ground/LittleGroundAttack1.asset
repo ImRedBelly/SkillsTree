@@ -15,6 +15,6 @@ MonoBehaviour:
   typeSkill: 1
   keySkill: LittleFireAttack1
   iconSkill: {fileID: 1707488616, guid: 9f1e08e4b1ae8e34cac67a0074830630, type: 3}
-  priceSkill: 0
+  priceSkill: 2
   nextSkillSetups:
   - {fileID: 11400000, guid: 7023ff7bb88dbfa43b00e861c8a9c88c, type: 2}

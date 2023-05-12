@@ -15,7 +15,7 @@ MonoBehaviour:
   typeSkill: 1
   keySkill: FireAttack
   iconSkill: {fileID: 1454796527, guid: 9f1e08e4b1ae8e34cac67a0074830630, type: 3}
-  priceSkill: 0
+  priceSkill: 1
   nextSkillSetups:
   - {fileID: 11400000, guid: efdcd0a39436d98458f1d330696eb0da, type: 2}
   - {fileID: 11400000, guid: 2cf4c49eff8b99443933cd0361f1bf78, type: 2}

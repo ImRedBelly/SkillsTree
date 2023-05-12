@@ -15,7 +15,7 @@ MonoBehaviour:
   typeSkill: 1
   keySkill: WaterAttack
   iconSkill: {fileID: -494639964, guid: 9f1e08e4b1ae8e34cac67a0074830630, type: 3}
-  priceSkill: 0
+  priceSkill: 1
   nextSkillSetups:
   - {fileID: 11400000, guid: 41f78e3775ae5ab48a5f50a2ee50d33a, type: 2}
   - {fileID: 11400000, guid: 96217342000109d43a8c453b7c49b7cc, type: 2}

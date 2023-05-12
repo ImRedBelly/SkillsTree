@@ -15,7 +15,7 @@ MonoBehaviour:
   typeSkill: 1
   keySkill: MidleFireAttack
   iconSkill: {fileID: -89539798, guid: 9f1e08e4b1ae8e34cac67a0074830630, type: 3}
-  priceSkill: 0
+  priceSkill: 3
   nextSkillSetups:
   - {fileID: 11400000, guid: 734ca8201dd4b1541b68eaa85d511a37, type: 2}
   - {fileID: 11400000, guid: 728ab7654181a654ba805f05efaf208c, type: 2}

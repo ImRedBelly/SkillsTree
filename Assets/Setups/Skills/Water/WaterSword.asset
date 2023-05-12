@@ -15,5 +15,5 @@ MonoBehaviour:
   typeSkill: 1
   keySkill: FireSword
   iconSkill: {fileID: -776152075, guid: 9f1e08e4b1ae8e34cac67a0074830630, type: 3}
-  priceSkill: 0
+  priceSkill: 4
   nextSkillSetups: []
