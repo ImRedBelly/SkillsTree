@@ -15,8 +15,9 @@ namespace Setups
         public string keySkill;
 
         [PreviewField(50)] public Sprite iconSkill;
-        
-        [ShowIf(nameof(typeSkill), TypeSkill.Second)] public int priceSkill;
+
+        [ShowIf(nameof(typeSkill), TypeSkill.Second)]
+        public int priceSkill;
 
         public List<SkillSetup> nextSkillSetups;
 
@@ -36,8 +37,6 @@ namespace Setups
                 skillDataModel.GetSkill(nextSkill.keySkill).incomingPurchasedNodesCount++;
 
             skillDataModel.SetStateSkill(keySkill, StateSkill.Open);
-
-            Debug.LogError("Upgrade: " + keySkill);
             OnBuySkill?.Invoke();
         }
 
@@ -47,10 +46,7 @@ namespace Setups
             foreach (var nextSkill in nextSkillSetups)
                 skillDataModel.GetSkill(nextSkill.keySkill).incomingPurchasedNodesCount--;
 
-
             skillDataModel.SetStateSkill(keySkill, StateSkill.Close);
-
-            Debug.LogError("Reverse: " + keySkill);
             OnReverseSkill?.Invoke();
         }
     }

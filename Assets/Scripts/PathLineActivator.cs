@@ -1,12 +1,14 @@
+using Setups;
+using Sirenix.OdinInspector;
 using UnityEngine;
 using UnityEngine.UI;
-using OdinNode.SkillGraph;
-using Setups;
 
 public class PathLineActivator : MonoBehaviour
 {
     [SerializeField] private Image iconPath;
     [SerializeField] private SkillSetup[] skillDataNodes;
+    [SerializeField] private LineRenderer lineRenderer;
+    [SerializeField] private Transform[] pointsLine;
     [SerializeField] private Color activateColor, deactivateColor;
 
     private void Start()
@@ -28,6 +30,13 @@ public class PathLineActivator : MonoBehaviour
             skillData.OnBuySkill -= CheckStatePathLine;
         foreach (var skillData in skillDataNodes)
             skillData.OnReverseSkill -= CheckStatePathLine;
+    }
+
+    public void UpdateLine()
+    {
+        if (pointsLine.Length < 1) return;
+        lineRenderer.SetPosition(0, pointsLine[0].position);
+        lineRenderer.SetPosition(1, pointsLine[1].position);
     }
 
     private void CheckStatePathLine()

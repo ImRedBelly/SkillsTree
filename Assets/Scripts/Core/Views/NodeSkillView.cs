@@ -9,7 +9,7 @@ namespace Core.Views
         public event Action ClickButtonSkill;
 
         [SerializeField] private Button _buttonSkill;
-        [SerializeField] private Image _iconSkill;
+        [SerializeField] private Image _iconSkill, _iconBackground;
 
 
         protected virtual void OnEnable()
@@ -23,6 +23,7 @@ namespace Core.Views
         }
 
         public void UpdateIconSkill(Sprite iconSkill) => _iconSkill.sprite = iconSkill;
+        public void UpdateColorBackground(Color color) => _iconBackground.color = color;
         private void OnClickButtonSkill()
         {
             ClickButtonSkill?.Invoke();

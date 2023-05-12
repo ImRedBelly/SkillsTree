@@ -6,7 +6,7 @@ namespace DataModels
     {
         public event Action OnChangeSkillPoints;
         
-        private int _skillPointCount = 0;
+        private int _skillPointCount = 10;
 
         public int GetSkillPoint() => _skillPointCount;
         public void AppendSkillPoint(int countAppend) => _skillPointCount += countAppend;
