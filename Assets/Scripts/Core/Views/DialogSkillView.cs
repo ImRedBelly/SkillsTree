@@ -14,7 +14,9 @@ namespace Core.Views
         [SerializeField] private Button _buttonBuySkill;
         [SerializeField] private Button _buttonReverseSkill;
         [SerializeField] private Button _buttonCloseDialog;
-        [Space] [SerializeField] private Image _iconSkill;
+        [Space] 
+        [SerializeField] private Image _iconSkill;
+        [SerializeField] private GameObject _panelPrice;
         [SerializeField] private TextMeshProUGUI _textNameSkill;
         [SerializeField] private TextMeshProUGUI _textDescriptionSkill;
         [SerializeField] private TextMeshProUGUI _textPriceSkill;
@@ -35,7 +37,9 @@ namespace Core.Views
         }
 
         public void UpdateIconSkill(Sprite iconSkill)
-            => _iconSkill.sprite = iconSkill;
+            => _iconSkill.sprite = iconSkill; 
+        public void UpdateStatePanelPrice(bool state)
+            => _panelPrice.SetActive(state);
 
         public void UpdateNameSkill(string nameSkill)
             => _textNameSkill.text = nameSkill;

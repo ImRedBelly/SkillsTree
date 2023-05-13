@@ -3,6 +3,7 @@ using System.Linq;
 using UnityEngine;
 using Sirenix.OdinInspector;
 using System.Collections.Generic;
+using UnityEditor;
 
 namespace Setups
 {
@@ -42,12 +43,27 @@ namespace Setups
 
         public void ReverseSkill()
         {
+            if (typeSkill == TypeSkill.Main) return;
+            
             var skillDataModel = GameController.Insatance.SkillsDataModel;
+            var skillPointDataModel = GameController.Insatance.SkillPointDataModel;
             foreach (var nextSkill in nextSkillSetups)
                 skillDataModel.GetSkill(nextSkill.keySkill).incomingPurchasedNodesCount--;
 
+
+            skillPointDataModel.AppendSkillPoint(priceSkill);
             skillDataModel.SetStateSkill(keySkill, StateSkill.Close);
             OnReverseSkill?.Invoke();
+        }
+
+        public void ForceReverse()
+        {
+            if (GetStateSkill() == StateSkill.Close)
+                return;
+
+            ReverseSkill();
+            foreach (var nextSkill in nextSkillSetups)
+                nextSkill.ForceReverse();
         }
     }
 }

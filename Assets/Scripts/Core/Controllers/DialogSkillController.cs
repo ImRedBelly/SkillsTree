@@ -39,8 +39,12 @@ namespace Core.Controllers
 
             var state = _skillSetup.GetStateSkill();
             var typeSecond = _skillSetup.typeSkill == TypeSkill.Second;
-            _dialogSkillView.UpdateStateButtonBuySkill(state == StateSkill.Close && typeSecond);
-            _dialogSkillView.UpdateStateButtonReverseSkill(state == StateSkill.Open && typeSecond);
+            var canBuySkill = state == StateSkill.Close && _skillSetup.CanBuySkill();
+            var cantReversSkill = state == StateSkill.Open && !_skillSetup.CantReversSkill();
+            
+            _dialogSkillView.UpdateStatePanelPrice(typeSecond);
+            _dialogSkillView.UpdateStateButtonBuySkill(canBuySkill && typeSecond);
+            _dialogSkillView.UpdateStateButtonReverseSkill(cantReversSkill && typeSecond);
         }
 
         private void OnBuySkill()
@@ -56,10 +60,8 @@ namespace Core.Controllers
 
         private void OnReversSkill()
         {
-            var skillDataModel = GameController.Insatance.SkillPointDataModel;
             if (_skillSetup.CantReversSkill()) return;
 
-            skillDataModel.AppendSkillPoint(_skillSetup.priceSkill);
             _skillSetup.ReverseSkill();
             UpdateViewDialog();
         }

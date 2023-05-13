@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: LittleIceAttack1
   m_EditorClassIdentifier: 
   typeSkill: 1
-  keySkill: LittleFireAttack1
+  keySkill: LittleIceAttack1
   iconSkill: {fileID: 588970347, guid: 9f1e08e4b1ae8e34cac67a0074830630, type: 3}
   priceSkill: 2
   nextSkillSetups:

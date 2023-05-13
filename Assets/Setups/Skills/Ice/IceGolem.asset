@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: IceGolem
   m_EditorClassIdentifier: 
   typeSkill: 1
-  keySkill: FireGolem
+  keySkill: IceGolem
   iconSkill: {fileID: 1682531934, guid: 9f1e08e4b1ae8e34cac67a0074830630, type: 3}
   priceSkill: 4
   nextSkillSetups: []

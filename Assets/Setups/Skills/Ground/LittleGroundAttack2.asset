@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: LittleGroundAttack2
   m_EditorClassIdentifier: 
   typeSkill: 1
-  keySkill: LittleFireAttack2
+  keySkill: LittleGroundAttack2
   iconSkill: {fileID: -32916077, guid: 9f1e08e4b1ae8e34cac67a0074830630, type: 3}
   priceSkill: 2
   nextSkillSetups:

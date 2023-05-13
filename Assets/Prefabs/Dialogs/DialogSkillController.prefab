@@ -965,6 +965,7 @@ MonoBehaviour:
   _buttonReverseSkill: {fileID: 9150881565063652283}
   _buttonCloseDialog: {fileID: 8853438101018195057}
   _iconSkill: {fileID: 984839322245356825}
+  _panelPrice: {fileID: 6077145255323095163}
   _textNameSkill: {fileID: 5597129428834244632}
   _textDescriptionSkill: {fileID: 7905676014338784699}
   _textPriceSkill: {fileID: 661581247603036203}

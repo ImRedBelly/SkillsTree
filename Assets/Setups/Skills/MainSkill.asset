@@ -12,6 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b7630845c39b4cb3a416f7746f3ffd8b, type: 3}
   m_Name: MainSkill
   m_EditorClassIdentifier: 
+  typeSkill: 0
   keySkill: MainSkill
   iconSkill: {fileID: 21300000, guid: 1859b28961214534caf8bc2c9cf8524b, type: 3}
   priceSkill: 0
+  nextSkillSetups:
+  - {fileID: 11400000, guid: 6082ddc0bd9dd5040b9cb7c1e239241f, type: 2}
+  - {fileID: 11400000, guid: 6582527551b43c94bb7cc59784141ee4, type: 2}
+  - {fileID: 11400000, guid: 20c5d7ca55e9a884baaf518f71487154, type: 2}
+  - {fileID: 11400000, guid: 58e49bd7bd7099d49bddd7215f5a65c2, type: 2}

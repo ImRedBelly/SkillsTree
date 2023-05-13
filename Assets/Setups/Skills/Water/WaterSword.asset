@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: WaterSword
   m_EditorClassIdentifier: 
   typeSkill: 1
-  keySkill: FireSword
+  keySkill: WaterSword
   iconSkill: {fileID: -776152075, guid: 9f1e08e4b1ae8e34cac67a0074830630, type: 3}
   priceSkill: 4
   nextSkillSetups: []
