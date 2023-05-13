@@ -1,3 +1,4 @@
+using Core.Controllers;
 using UnityEngine;
 
 namespace Tools
@@ -5,11 +6,11 @@ namespace Tools
     [ExecuteAlways]
     public class UpdateLinesController : MonoBehaviour
     {
-        private PathLineActivator[] lines;
+        private PathLineController[] lines;
 
         private void OnValidate()
         {
-            lines = FindObjectsOfType<PathLineActivator>();
+            lines = FindObjectsOfType<PathLineController>();
         }
 
         private void Update()

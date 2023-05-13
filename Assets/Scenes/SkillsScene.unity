@@ -467,6 +467,14 @@ PrefabInstance:
       propertyPath: buttonsCheck.Array.data[1]
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 5482170663682049854, guid: be6c3f66524f29248ac939624a02c8a8, type: 3}
+      propertyPath: _skillDataNodes.Array.data[0]
+      value: 
+      objectReference: {fileID: 11400000, guid: ca4a0784d8f1b434b9776d9cc8ecf8ff, type: 2}
+    - target: {fileID: 5482170663682049854, guid: be6c3f66524f29248ac939624a02c8a8, type: 3}
+      propertyPath: _skillDataNodes.Array.data[1]
+      value: 
+      objectReference: {fileID: 11400000, guid: 734ca8201dd4b1541b68eaa85d511a37, type: 2}
     - target: {fileID: 5694246700045927392, guid: be6c3f66524f29248ac939624a02c8a8, type: 3}
       propertyPath: m_Name
       value: PathLine (6)
@@ -669,6 +677,14 @@ PrefabInstance:
       propertyPath: buttonsCheck.Array.data[0]
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 5482170663682049854, guid: be6c3f66524f29248ac939624a02c8a8, type: 3}
+      propertyPath: _skillDataNodes.Array.data[0]
+      value: 
+      objectReference: {fileID: 11400000, guid: 20c5d7ca55e9a884baaf518f71487154, type: 2}
+    - target: {fileID: 5482170663682049854, guid: be6c3f66524f29248ac939624a02c8a8, type: 3}
+      propertyPath: _skillDataNodes.Array.data[1]
+      value: 
+      objectReference: {fileID: 11400000, guid: a0f2cb78dde72d8478a0864826806f14, type: 2}
     - target: {fileID: 5694246700045927392, guid: be6c3f66524f29248ac939624a02c8a8, type: 3}
       propertyPath: m_Name
       value: PathLine (3)
@@ -803,6 +819,14 @@ PrefabInstance:
       propertyPath: buttonsCheck.Array.data[0]
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 5482170663682049854, guid: be6c3f66524f29248ac939624a02c8a8, type: 3}
+      propertyPath: _skillDataNodes.Array.data[0]
+      value: 
+      objectReference: {fileID: 11400000, guid: 6582527551b43c94bb7cc59784141ee4, type: 2}
+    - target: {fileID: 5482170663682049854, guid: be6c3f66524f29248ac939624a02c8a8, type: 3}
+      propertyPath: _skillDataNodes.Array.data[1]
+      value: 
+      objectReference: {fileID: 11400000, guid: 96217342000109d43a8c453b7c49b7cc, type: 2}
     - target: {fileID: 5694246700045927392, guid: be6c3f66524f29248ac939624a02c8a8, type: 3}
       propertyPath: m_Name
       value: PathLine (3)
@@ -1192,6 +1216,14 @@ PrefabInstance:
       propertyPath: buttonsCheck.Array.data[1]
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 5482170663682049854, guid: be6c3f66524f29248ac939624a02c8a8, type: 3}
+      propertyPath: _skillDataNodes.Array.data[0]
+      value: 
+      objectReference: {fileID: 11400000, guid: ca4a0784d8f1b434b9776d9cc8ecf8ff, type: 2}
+    - target: {fileID: 5482170663682049854, guid: be6c3f66524f29248ac939624a02c8a8, type: 3}
+      propertyPath: _skillDataNodes.Array.data[1]
+      value: 
+      objectReference: {fileID: 11400000, guid: 728ab7654181a654ba805f05efaf208c, type: 2}
     - target: {fileID: 5694246700045927392, guid: be6c3f66524f29248ac939624a02c8a8, type: 3}
       propertyPath: m_Name
       value: PathLine (7)
@@ -1330,6 +1362,14 @@ PrefabInstance:
       propertyPath: buttonsCheck.Array.data[1]
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 5482170663682049854, guid: be6c3f66524f29248ac939624a02c8a8, type: 3}
+      propertyPath: _skillDataNodes.Array.data[0]
+      value: 
+      objectReference: {fileID: 11400000, guid: ccb1e6e29d56c9542935be0630421747, type: 2}
+    - target: {fileID: 5482170663682049854, guid: be6c3f66524f29248ac939624a02c8a8, type: 3}
+      propertyPath: _skillDataNodes.Array.data[1]
+      value: 
+      objectReference: {fileID: 11400000, guid: 5e72b0e925b90c146b4da4f56f30cff2, type: 2}
     - target: {fileID: 5694246700045927392, guid: be6c3f66524f29248ac939624a02c8a8, type: 3}
       propertyPath: m_Name
       value: PathLine (7)
@@ -1764,6 +1804,14 @@ PrefabInstance:
       propertyPath: buttonsCheck.Array.data[0]
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 5482170663682049854, guid: be6c3f66524f29248ac939624a02c8a8, type: 3}
+      propertyPath: _skillDataNodes.Array.data[0]
+      value: 
+      objectReference: {fileID: 11400000, guid: 58e49bd7bd7099d49bddd7215f5a65c2, type: 2}
+    - target: {fileID: 5482170663682049854, guid: be6c3f66524f29248ac939624a02c8a8, type: 3}
+      propertyPath: _skillDataNodes.Array.data[1]
+      value: 
+      objectReference: {fileID: 11400000, guid: 3294bb38a6276f842972f67e1a2e8d8e, type: 2}
     - target: {fileID: 5694246700045927392, guid: be6c3f66524f29248ac939624a02c8a8, type: 3}
       propertyPath: m_Name
       value: PathLine (3)
@@ -1902,6 +1950,14 @@ PrefabInstance:
       propertyPath: buttonsCheck.Array.data[1]
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 5482170663682049854, guid: be6c3f66524f29248ac939624a02c8a8, type: 3}
+      propertyPath: _skillDataNodes.Array.data[0]
+      value: 
+      objectReference: {fileID: 11400000, guid: a0f2cb78dde72d8478a0864826806f14, type: 2}
+    - target: {fileID: 5482170663682049854, guid: be6c3f66524f29248ac939624a02c8a8, type: 3}
+      propertyPath: _skillDataNodes.Array.data[1]
+      value: 
+      objectReference: {fileID: 11400000, guid: 7023ff7bb88dbfa43b00e861c8a9c88c, type: 2}
     - target: {fileID: 5694246700045927392, guid: be6c3f66524f29248ac939624a02c8a8, type: 3}
       propertyPath: m_Name
       value: PathLine (5)
@@ -2178,6 +2234,14 @@ PrefabInstance:
       propertyPath: buttonsCheck.Array.data[0]
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 5482170663682049854, guid: be6c3f66524f29248ac939624a02c8a8, type: 3}
+      propertyPath: _skillDataNodes.Array.data[0]
+      value: 
+      objectReference: {fileID: 11400000, guid: 3b7de5e2f63c05644956ae14ce1f4d43, type: 2}
+    - target: {fileID: 5482170663682049854, guid: be6c3f66524f29248ac939624a02c8a8, type: 3}
+      propertyPath: _skillDataNodes.Array.data[1]
+      value: 
+      objectReference: {fileID: 11400000, guid: 6082ddc0bd9dd5040b9cb7c1e239241f, type: 2}
     - target: {fileID: 5694246700045927392, guid: be6c3f66524f29248ac939624a02c8a8, type: 3}
       propertyPath: m_Name
       value: PathLine (1)
@@ -2789,6 +2853,14 @@ PrefabInstance:
       propertyPath: buttonsCheck.Array.data[1]
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 5482170663682049854, guid: be6c3f66524f29248ac939624a02c8a8, type: 3}
+      propertyPath: _skillDataNodes.Array.data[0]
+      value: 
+      objectReference: {fileID: 11400000, guid: 49462543ca8d1d04d939d6467257a2ce, type: 2}
+    - target: {fileID: 5482170663682049854, guid: be6c3f66524f29248ac939624a02c8a8, type: 3}
+      propertyPath: _skillDataNodes.Array.data[1]
+      value: 
+      objectReference: {fileID: 11400000, guid: 335e35b8032df974c956fce0d69600b1, type: 2}
     - target: {fileID: 5694246700045927392, guid: be6c3f66524f29248ac939624a02c8a8, type: 3}
       propertyPath: m_Name
       value: PathLine (7)
@@ -3574,6 +3646,14 @@ PrefabInstance:
       propertyPath: buttonsCheck.Array.data[0]
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 5482170663682049854, guid: be6c3f66524f29248ac939624a02c8a8, type: 3}
+      propertyPath: _skillDataNodes.Array.data[0]
+      value: 
+      objectReference: {fileID: 11400000, guid: 20c5d7ca55e9a884baaf518f71487154, type: 2}
+    - target: {fileID: 5482170663682049854, guid: be6c3f66524f29248ac939624a02c8a8, type: 3}
+      propertyPath: _skillDataNodes.Array.data[1]
+      value: 
+      objectReference: {fileID: 11400000, guid: a08dbecf99d35e34fbfaf387bb639c0e, type: 2}
     - target: {fileID: 5694246700045927392, guid: be6c3f66524f29248ac939624a02c8a8, type: 3}
       propertyPath: m_Name
       value: PathLine (2)
@@ -3708,6 +3788,14 @@ PrefabInstance:
       propertyPath: buttonsCheck.Array.data[0]
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 5482170663682049854, guid: be6c3f66524f29248ac939624a02c8a8, type: 3}
+      propertyPath: _skillDataNodes.Array.data[0]
+      value: 
+      objectReference: {fileID: 11400000, guid: 3b7de5e2f63c05644956ae14ce1f4d43, type: 2}
+    - target: {fileID: 5482170663682049854, guid: be6c3f66524f29248ac939624a02c8a8, type: 3}
+      propertyPath: _skillDataNodes.Array.data[1]
+      value: 
+      objectReference: {fileID: 11400000, guid: 58e49bd7bd7099d49bddd7215f5a65c2, type: 2}
     - target: {fileID: 5694246700045927392, guid: be6c3f66524f29248ac939624a02c8a8, type: 3}
       propertyPath: m_Name
       value: PathLine (1)
@@ -4154,6 +4242,14 @@ PrefabInstance:
       propertyPath: buttonsCheck.Array.data[1]
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 5482170663682049854, guid: be6c3f66524f29248ac939624a02c8a8, type: 3}
+      propertyPath: _skillDataNodes.Array.data[0]
+      value: 
+      objectReference: {fileID: 11400000, guid: 96217342000109d43a8c453b7c49b7cc, type: 2}
+    - target: {fileID: 5482170663682049854, guid: be6c3f66524f29248ac939624a02c8a8, type: 3}
+      propertyPath: _skillDataNodes.Array.data[1]
+      value: 
+      objectReference: {fileID: 11400000, guid: ccb1e6e29d56c9542935be0630421747, type: 2}
     - target: {fileID: 5694246700045927392, guid: be6c3f66524f29248ac939624a02c8a8, type: 3}
       propertyPath: m_Name
       value: PathLine (5)
@@ -4458,6 +4554,14 @@ PrefabInstance:
       propertyPath: buttonsCheck.Array.data[1]
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 5482170663682049854, guid: be6c3f66524f29248ac939624a02c8a8, type: 3}
+      propertyPath: _skillDataNodes.Array.data[0]
+      value: 
+      objectReference: {fileID: 11400000, guid: 2cf4c49eff8b99443933cd0361f1bf78, type: 2}
+    - target: {fileID: 5482170663682049854, guid: be6c3f66524f29248ac939624a02c8a8, type: 3}
+      propertyPath: _skillDataNodes.Array.data[1]
+      value: 
+      objectReference: {fileID: 11400000, guid: 49462543ca8d1d04d939d6467257a2ce, type: 2}
     - target: {fileID: 5694246700045927392, guid: be6c3f66524f29248ac939624a02c8a8, type: 3}
       propertyPath: m_Name
       value: PathLine (5)
@@ -4596,6 +4700,14 @@ PrefabInstance:
       propertyPath: buttonsCheck.Array.data[1]
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 5482170663682049854, guid: be6c3f66524f29248ac939624a02c8a8, type: 3}
+      propertyPath: _skillDataNodes.Array.data[0]
+      value: 
+      objectReference: {fileID: 11400000, guid: a08dbecf99d35e34fbfaf387bb639c0e, type: 2}
+    - target: {fileID: 5482170663682049854, guid: be6c3f66524f29248ac939624a02c8a8, type: 3}
+      propertyPath: _skillDataNodes.Array.data[1]
+      value: 
+      objectReference: {fileID: 11400000, guid: 7023ff7bb88dbfa43b00e861c8a9c88c, type: 2}
     - target: {fileID: 5694246700045927392, guid: be6c3f66524f29248ac939624a02c8a8, type: 3}
       propertyPath: m_Name
       value: PathLine (4)
@@ -4734,6 +4846,14 @@ PrefabInstance:
       propertyPath: buttonsCheck.Array.data[1]
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 5482170663682049854, guid: be6c3f66524f29248ac939624a02c8a8, type: 3}
+      propertyPath: _skillDataNodes.Array.data[0]
+      value: 
+      objectReference: {fileID: 11400000, guid: 49462543ca8d1d04d939d6467257a2ce, type: 2}
+    - target: {fileID: 5482170663682049854, guid: be6c3f66524f29248ac939624a02c8a8, type: 3}
+      propertyPath: _skillDataNodes.Array.data[1]
+      value: 
+      objectReference: {fileID: 11400000, guid: 486d7d7bb77ac5e4f90941d628ca19f0, type: 2}
     - target: {fileID: 5694246700045927392, guid: be6c3f66524f29248ac939624a02c8a8, type: 3}
       propertyPath: m_Name
       value: PathLine (6)
@@ -4872,6 +4992,14 @@ PrefabInstance:
       propertyPath: buttonsCheck.Array.data[1]
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 5482170663682049854, guid: be6c3f66524f29248ac939624a02c8a8, type: 3}
+      propertyPath: _skillDataNodes.Array.data[0]
+      value: 
+      objectReference: {fileID: 11400000, guid: 41f78e3775ae5ab48a5f50a2ee50d33a, type: 2}
+    - target: {fileID: 5482170663682049854, guid: be6c3f66524f29248ac939624a02c8a8, type: 3}
+      propertyPath: _skillDataNodes.Array.data[1]
+      value: 
+      objectReference: {fileID: 11400000, guid: ccb1e6e29d56c9542935be0630421747, type: 2}
     - target: {fileID: 5694246700045927392, guid: be6c3f66524f29248ac939624a02c8a8, type: 3}
       propertyPath: m_Name
       value: PathLine (4)
@@ -5726,6 +5854,14 @@ PrefabInstance:
       propertyPath: buttonsCheck.Array.data[0]
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 5482170663682049854, guid: be6c3f66524f29248ac939624a02c8a8, type: 3}
+      propertyPath: _skillDataNodes.Array.data[0]
+      value: 
+      objectReference: {fileID: 11400000, guid: 6582527551b43c94bb7cc59784141ee4, type: 2}
+    - target: {fileID: 5482170663682049854, guid: be6c3f66524f29248ac939624a02c8a8, type: 3}
+      propertyPath: _skillDataNodes.Array.data[1]
+      value: 
+      objectReference: {fileID: 11400000, guid: 41f78e3775ae5ab48a5f50a2ee50d33a, type: 2}
     - target: {fileID: 5694246700045927392, guid: be6c3f66524f29248ac939624a02c8a8, type: 3}
       propertyPath: m_Name
       value: PathLine (2)
@@ -6030,6 +6166,14 @@ PrefabInstance:
       propertyPath: buttonsCheck.Array.data[1]
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 5482170663682049854, guid: be6c3f66524f29248ac939624a02c8a8, type: 3}
+      propertyPath: _skillDataNodes.Array.data[0]
+      value: 
+      objectReference: {fileID: 11400000, guid: 1ee9a1a2413378b4db493dce46824039, type: 2}
+    - target: {fileID: 5482170663682049854, guid: be6c3f66524f29248ac939624a02c8a8, type: 3}
+      propertyPath: _skillDataNodes.Array.data[1]
+      value: 
+      objectReference: {fileID: 11400000, guid: ca4a0784d8f1b434b9776d9cc8ecf8ff, type: 2}
     - target: {fileID: 5694246700045927392, guid: be6c3f66524f29248ac939624a02c8a8, type: 3}
       propertyPath: m_Name
       value: PathLine (4)
@@ -6249,6 +6393,14 @@ PrefabInstance:
       propertyPath: buttonsCheck.Array.data[1]
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 5482170663682049854, guid: be6c3f66524f29248ac939624a02c8a8, type: 3}
+      propertyPath: _skillDataNodes.Array.data[0]
+      value: 
+      objectReference: {fileID: 11400000, guid: efdcd0a39436d98458f1d330696eb0da, type: 2}
+    - target: {fileID: 5482170663682049854, guid: be6c3f66524f29248ac939624a02c8a8, type: 3}
+      propertyPath: _skillDataNodes.Array.data[1]
+      value: 
+      objectReference: {fileID: 11400000, guid: 49462543ca8d1d04d939d6467257a2ce, type: 2}
     - target: {fileID: 5694246700045927392, guid: be6c3f66524f29248ac939624a02c8a8, type: 3}
       propertyPath: m_Name
       value: PathLine (4)
@@ -6531,6 +6683,14 @@ PrefabInstance:
       propertyPath: m_Positions.Array.data[0].y
       value: -1.21
       objectReference: {fileID: 0}
+    - target: {fileID: 2852166161523168158, guid: be6c3f66524f29248ac939624a02c8a8, type: 3}
+      propertyPath: m_Parameters.colorGradient.atime0
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2852166161523168158, guid: be6c3f66524f29248ac939624a02c8a8, type: 3}
+      propertyPath: m_Parameters.colorGradient.key0.a
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5482170663682049854, guid: be6c3f66524f29248ac939624a02c8a8, type: 3}
       propertyPath: pointsLine.Array.size
       value: 2
@@ -6551,6 +6711,14 @@ PrefabInstance:
       propertyPath: buttonsCheck.Array.data[0]
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 5482170663682049854, guid: be6c3f66524f29248ac939624a02c8a8, type: 3}
+      propertyPath: _skillDataNodes.Array.data[0]
+      value: 
+      objectReference: {fileID: 11400000, guid: 3b7de5e2f63c05644956ae14ce1f4d43, type: 2}
+    - target: {fileID: 5482170663682049854, guid: be6c3f66524f29248ac939624a02c8a8, type: 3}
+      propertyPath: _skillDataNodes.Array.data[1]
+      value: 
+      objectReference: {fileID: 11400000, guid: 20c5d7ca55e9a884baaf518f71487154, type: 2}
     - target: {fileID: 5694246700045927392, guid: be6c3f66524f29248ac939624a02c8a8, type: 3}
       propertyPath: m_Name
       value: PathLine (1)
@@ -7050,6 +7218,14 @@ PrefabInstance:
       propertyPath: buttonsCheck.Array.data[1]
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 5482170663682049854, guid: be6c3f66524f29248ac939624a02c8a8, type: 3}
+      propertyPath: _skillDataNodes.Array.data[0]
+      value: 
+      objectReference: {fileID: 11400000, guid: ccb1e6e29d56c9542935be0630421747, type: 2}
+    - target: {fileID: 5482170663682049854, guid: be6c3f66524f29248ac939624a02c8a8, type: 3}
+      propertyPath: _skillDataNodes.Array.data[1]
+      value: 
+      objectReference: {fileID: 11400000, guid: eafceba681877394893ad169dfcb1023, type: 2}
     - target: {fileID: 5694246700045927392, guid: be6c3f66524f29248ac939624a02c8a8, type: 3}
       propertyPath: m_Name
       value: PathLine (6)
@@ -7323,6 +7499,14 @@ PrefabInstance:
       propertyPath: buttonsCheck.Array.data[1]
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 5482170663682049854, guid: be6c3f66524f29248ac939624a02c8a8, type: 3}
+      propertyPath: _skillDataNodes.Array.data[0]
+      value: 
+      objectReference: {fileID: 11400000, guid: 7023ff7bb88dbfa43b00e861c8a9c88c, type: 2}
+    - target: {fileID: 5482170663682049854, guid: be6c3f66524f29248ac939624a02c8a8, type: 3}
+      propertyPath: _skillDataNodes.Array.data[1]
+      value: 
+      objectReference: {fileID: 11400000, guid: 2a89725336e846641a53dc6f4c90c8f7, type: 2}
     - target: {fileID: 5694246700045927392, guid: be6c3f66524f29248ac939624a02c8a8, type: 3}
       propertyPath: m_Name
       value: PathLine (6)
@@ -7457,6 +7641,14 @@ PrefabInstance:
       propertyPath: buttonsCheck.Array.data[0]
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 5482170663682049854, guid: be6c3f66524f29248ac939624a02c8a8, type: 3}
+      propertyPath: _skillDataNodes.Array.data[0]
+      value: 
+      objectReference: {fileID: 11400000, guid: 6082ddc0bd9dd5040b9cb7c1e239241f, type: 2}
+    - target: {fileID: 5482170663682049854, guid: be6c3f66524f29248ac939624a02c8a8, type: 3}
+      propertyPath: _skillDataNodes.Array.data[1]
+      value: 
+      objectReference: {fileID: 11400000, guid: 2cf4c49eff8b99443933cd0361f1bf78, type: 2}
     - target: {fileID: 5694246700045927392, guid: be6c3f66524f29248ac939624a02c8a8, type: 3}
       propertyPath: m_Name
       value: PathLine (3)
@@ -7619,6 +7811,14 @@ PrefabInstance:
       propertyPath: buttonsCheck.Array.data[0]
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 5482170663682049854, guid: be6c3f66524f29248ac939624a02c8a8, type: 3}
+      propertyPath: _skillDataNodes.Array.data[0]
+      value: 
+      objectReference: {fileID: 11400000, guid: 3b7de5e2f63c05644956ae14ce1f4d43, type: 2}
+    - target: {fileID: 5482170663682049854, guid: be6c3f66524f29248ac939624a02c8a8, type: 3}
+      propertyPath: _skillDataNodes.Array.data[1]
+      value: 
+      objectReference: {fileID: 11400000, guid: 6582527551b43c94bb7cc59784141ee4, type: 2}
     - target: {fileID: 5694246700045927392, guid: be6c3f66524f29248ac939624a02c8a8, type: 3}
       propertyPath: m_Name
       value: PathLine (1)
@@ -7795,6 +7995,14 @@ PrefabInstance:
       propertyPath: buttonsCheck.Array.data[0]
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 5482170663682049854, guid: be6c3f66524f29248ac939624a02c8a8, type: 3}
+      propertyPath: _skillDataNodes.Array.data[0]
+      value: 
+      objectReference: {fileID: 11400000, guid: 6082ddc0bd9dd5040b9cb7c1e239241f, type: 2}
+    - target: {fileID: 5482170663682049854, guid: be6c3f66524f29248ac939624a02c8a8, type: 3}
+      propertyPath: _skillDataNodes.Array.data[1]
+      value: 
+      objectReference: {fileID: 11400000, guid: efdcd0a39436d98458f1d330696eb0da, type: 2}
     - target: {fileID: 5694246700045927392, guid: be6c3f66524f29248ac939624a02c8a8, type: 3}
       propertyPath: m_Name
       value: PathLine (2)
@@ -8114,6 +8322,14 @@ PrefabInstance:
       propertyPath: buttonsCheck.Array.data[1]
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 5482170663682049854, guid: be6c3f66524f29248ac939624a02c8a8, type: 3}
+      propertyPath: _skillDataNodes.Array.data[0]
+      value: 
+      objectReference: {fileID: 11400000, guid: 3294bb38a6276f842972f67e1a2e8d8e, type: 2}
+    - target: {fileID: 5482170663682049854, guid: be6c3f66524f29248ac939624a02c8a8, type: 3}
+      propertyPath: _skillDataNodes.Array.data[1]
+      value: 
+      objectReference: {fileID: 11400000, guid: ca4a0784d8f1b434b9776d9cc8ecf8ff, type: 2}
     - target: {fileID: 5694246700045927392, guid: be6c3f66524f29248ac939624a02c8a8, type: 3}
       propertyPath: m_Name
       value: PathLine (5)
@@ -8556,6 +8772,14 @@ PrefabInstance:
       propertyPath: buttonsCheck.Array.data[0]
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 5482170663682049854, guid: be6c3f66524f29248ac939624a02c8a8, type: 3}
+      propertyPath: _skillDataNodes.Array.data[0]
+      value: 
+      objectReference: {fileID: 11400000, guid: 58e49bd7bd7099d49bddd7215f5a65c2, type: 2}
+    - target: {fileID: 5482170663682049854, guid: be6c3f66524f29248ac939624a02c8a8, type: 3}
+      propertyPath: _skillDataNodes.Array.data[1]
+      value: 
+      objectReference: {fileID: 11400000, guid: 1ee9a1a2413378b4db493dce46824039, type: 2}
     - target: {fileID: 5694246700045927392, guid: be6c3f66524f29248ac939624a02c8a8, type: 3}
       propertyPath: m_Name
       value: PathLine (2)
@@ -9136,6 +9360,14 @@ PrefabInstance:
       propertyPath: buttonsCheck.Array.data[1]
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 5482170663682049854, guid: be6c3f66524f29248ac939624a02c8a8, type: 3}
+      propertyPath: _skillDataNodes.Array.data[0]
+      value: 
+      objectReference: {fileID: 11400000, guid: 7023ff7bb88dbfa43b00e861c8a9c88c, type: 2}
+    - target: {fileID: 5482170663682049854, guid: be6c3f66524f29248ac939624a02c8a8, type: 3}
+      propertyPath: _skillDataNodes.Array.data[1]
+      value: 
+      objectReference: {fileID: 11400000, guid: dc90e2c6d1321df458178ad9fc307791, type: 2}
     - target: {fileID: 5694246700045927392, guid: be6c3f66524f29248ac939624a02c8a8, type: 3}
       propertyPath: m_Name
       value: PathLine (7)

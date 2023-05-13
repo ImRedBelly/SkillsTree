@@ -19,7 +19,7 @@ namespace Setups
         [ShowIf(nameof(typeSkill), TypeSkill.Second)]
         public int priceSkill;
 
-        public List<SkillSetup> nextSkillSetups;
+        [SerializeField] public List<SkillSetup> nextSkillSetups;
 
         public StateSkill GetStateSkill() => GameController.Insatance.SkillsDataModel.GetStateSkill(keySkill);
 
