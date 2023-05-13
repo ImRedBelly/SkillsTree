@@ -23,6 +23,7 @@ namespace Lean.Touch
 		/// -1 = Instantly change.
 		/// 1 = Slowly change.
 		/// 10 = Quickly change.</summary>
+		[SerializeField] private Vector2 maxPosition, minPosition;
 		public float Damping { set { damping = value; } get { return damping; } } [SerializeField] private float damping = -1.0f;
 
 		/// <summary>This allows you to control how much momentum is retained when the dragging fingers are all released.
@@ -32,9 +33,7 @@ namespace Lean.Touch
 		/// <summary>This allows you to set the target position value when calling the <b>ResetPosition</b> method.</summary>
 		public Vector3 DefaultPosition { set { defaultPosition = value; } get { return defaultPosition; } } [SerializeField] private Vector3 defaultPosition;
 
-		[SerializeField]
-		private Vector3 remainingDelta;
-
+		[SerializeField] private Vector3 remainingDelta;
 		/// <summary>This method resets the target position value to the <b>DefaultPosition</b> value.</summary>
 		[ContextMenu("Reset Position")]
 		public virtual void ResetRotation()
@@ -128,7 +127,20 @@ namespace Lean.Touch
 			var newRemainingDelta = Vector3.Lerp(remainingDelta, Vector3.zero, factor);
 
 			// Shift this position by the change in delta
-			transform.localPosition = oldPosition + remainingDelta - newRemainingDelta;
+			
+			
+			Vector3 newPosition = oldPosition + remainingDelta - newRemainingDelta;
+			if (newRemainingDelta.y < 0 && newPosition.y < minPosition.y)
+				newPosition.y = minPosition.y;
+			if (newRemainingDelta.y > 0 && newPosition.y > maxPosition.y)
+				newPosition.y = maxPosition.y;
+			if (newRemainingDelta.x < 0 && newPosition.x < minPosition.x)
+				newPosition.x = minPosition.x;
+			if (newRemainingDelta.x > 0 && newPosition.x > maxPosition.x)
+				newPosition.x = maxPosition.x;
+
+
+			transform.localPosition = newPosition;
 
 			if (fingers.Count == 0 && inertia > 0.0f && damping > 0.0f)
 			{
@@ -155,6 +167,8 @@ namespace Lean.Touch.Editor
 		{
 			TARGET tgt; TARGET[] tgts; GetTargets(out tgt, out tgts);
 
+			Draw("minPosition");
+			Draw("maxPosition");
 			Draw("Use");
 			Draw("ScreenDepth");
 			Draw("sensitivity", "The movement speed will be multiplied by this.\n\n-1 = Inverted Controls.");
