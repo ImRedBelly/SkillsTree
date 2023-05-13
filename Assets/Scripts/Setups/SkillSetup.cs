@@ -3,7 +3,6 @@ using System.Linq;
 using UnityEngine;
 using Sirenix.OdinInspector;
 using System.Collections.Generic;
-using UnityEditor;
 
 namespace Setups
 {

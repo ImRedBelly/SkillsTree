@@ -1,0 +1,190 @@
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (malloc) failed to allocate 1048576 bytes for AllocateHeap
+# Possible reasons:
+#   The system is out of physical RAM or swap space
+#   The process is running with CompressedOops enabled, and the Java Heap may be blocking the growth of the native heap
+# Possible solutions:
+#   Reduce memory load on the system
+#   Increase physical memory or swap space
+#   Check if swap backing store is full
+#   Decrease Java heap size (-Xmx/-Xms)
+#   Decrease number of Java threads
+#   Decrease Java thread stack sizes (-Xss)
+#   Set larger code cache with -XX:ReservedCodeCacheSize=
+#   JVM is running with Unscaled Compressed Oops mode in which the Java heap is
+#     placed in the first 4GB address space. The Java Heap base address is the
+#     maximum limit for the native heap growth. Please use -XX:HeapBaseMinAddress
+#     to set the Java Heap base and to place the Java Heap above 4GB virtual address.
+# This output file may be truncated or incomplete.
+#
+#  Out of Memory Error (./src/hotspot/share/memory/allocation.cpp:46), pid=26252, tid=10904
+#
+# JRE version:  (11.0.10+8) (build )
+# Java VM: OpenJDK 64-Bit Server VM (11.0.10+8-b1145.96, mixed mode, sharing, tiered, compressed oops, g1 gc, windows-amd64)
+# No core dump will be written. Minidumps are not enabled by default on client versions of Windows
+#
+
+---------------  S U M M A R Y ------------
+
+Command Line: org.jetbrains.git4idea.http.GitAskPassApp Username for 'https://github.com': 
+
+Host: Intel(R) Core(TM) i7-10870H CPU @ 2.20GHz, 16 cores, 15G,  Windows 10 , 64 bit Build 22621 (10.0.22621.1635)
+Time: Sat May 13 11:24:23 2023 RTZ 2 (зима) elapsed time: 0.012848 seconds (0d 0h 0m 0s)
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x000001bde5c0b000):  JavaThread "Unknown thread" [_thread_in_vm, id=10904, stack(0x000000b4e6000000,0x000000b4e6100000)]
+
+Stack: [0x000000b4e6000000,0x000000b4e6100000]
+Native frames: (J=compiled Java code, j=interpreted, Vv=VM code, C=native code)
+V  [jvm.dll+0x5ece6a]
+V  [jvm.dll+0x722cd5]
+V  [jvm.dll+0x72422d]
+V  [jvm.dll+0x7248e3]
+V  [jvm.dll+0x2428d8]
+V  [jvm.dll+0xb3ac4]
+V  [jvm.dll+0x2d4998]
+V  [jvm.dll+0x701807]
+V  [jvm.dll+0x70300c]
+V  [jvm.dll+0x3585a9]
+V  [jvm.dll+0x6e516e]
+V  [jvm.dll+0x3c09e3]
+V  [jvm.dll+0x3c2c71]
+C  [jli.dll+0x5373]
+C  [ucrtbase.dll+0x29363]
+C  [KERNEL32.DLL+0x126ad]
+C  [ntdll.dll+0x5a9f8]
+
+
+---------------  P R O C E S S  ---------------
+
+Threads class SMR info:
+_java_thread_list=0x000001bde5996820, length=0, elements={
+}
+
+Java Threads: ( => current thread )
+
+Other Threads:
+
+=>0x000001bde5c0b000 (exited) JavaThread "Unknown thread" [_thread_in_vm, id=10904, stack(0x000000b4e6000000,0x000000b4e6100000)]
+
+Threads with active compile tasks:
+
+VM state:not at safepoint (not fully initialized)
+
+VM Mutex/Monitor currently owned by a thread: None
+
+
+[error occurred during error reporting (printing compressed oops mode), id 0xc0000005, EXCEPTION_ACCESS_VIOLATION (0xc0000005) at pc=0x00007ffe607c2657]
+
+GC Heap History (0 events):
+No events
+
+Deoptimization events (0 events):
+No events
+
+Classes redefined (0 events):
+No events
+
+Internal exceptions (0 events):
+No events
+
+Events (1 events):
+Event: 0.010 Loaded shared library C:\Program Files\JetBrains\JetBrains Rider 2020.3.4\jbr\bin\zip.dll
+
+
+Dynamic libraries:
+0x00007ff750fd0000 - 0x00007ff750fda000 	C:\Program Files\JetBrains\JetBrains Rider 2020.3.4\jbr\bin\java.exe
+0x00007ffefc690000 - 0x00007ffefc8a4000 	C:\Windows\SYSTEM32\ntdll.dll
+0x00007ffefb000000 - 0x00007ffefb0c2000 	C:\Windows\System32\KERNEL32.DLL
+0x00007ffef9d40000 - 0x00007ffefa0e3000 	C:\Windows\System32\KERNELBASE.dll
+0x00007ffef9c20000 - 0x00007ffef9d31000 	C:\Windows\System32\ucrtbase.dll
+0x00007ffed52a0000 - 0x00007ffed52b9000 	C:\Program Files\JetBrains\JetBrains Rider 2020.3.4\jbr\bin\jli.dll
+0x00007ffeb2530000 - 0x00007ffeb2547000 	C:\Program Files\JetBrains\JetBrains Rider 2020.3.4\jbr\bin\VCRUNTIME140.dll
+0x00007ffefc4a0000 - 0x00007ffefc64b000 	C:\Windows\System32\USER32.dll
+0x00007ffee1030000 - 0x00007ffee12be000 	C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.22621.1635_none_270f70857386168e\COMCTL32.dll
+0x00007ffefa0f0000 - 0x00007ffefa116000 	C:\Windows\System32\win32u.dll
+0x00007ffefb450000 - 0x00007ffefb479000 	C:\Windows\System32\GDI32.dll
+0x00007ffefa490000 - 0x00007ffefa537000 	C:\Windows\System32\msvcrt.dll
+0x00007ffefa1e0000 - 0x00007ffefa2f8000 	C:\Windows\System32\gdi32full.dll
+0x00007ffefa370000 - 0x00007ffefa40a000 	C:\Windows\System32\msvcp_win.dll
+0x00007ffefac90000 - 0x00007ffefacc1000 	C:\Windows\System32\IMM32.DLL
+0x00007ffe84200000 - 0x00007ffe8429d000 	C:\Program Files\JetBrains\JetBrains Rider 2020.3.4\jbr\bin\msvcp140.dll
+0x00007ffe600c0000 - 0x00007ffe60b90000 	C:\Program Files\JetBrains\JetBrains Rider 2020.3.4\jbr\bin\server\jvm.dll
+0x00007ffefa660000 - 0x00007ffefa70e000 	C:\Windows\System32\ADVAPI32.dll
+0x00007ffefc310000 - 0x00007ffefc3b4000 	C:\Windows\System32\sechost.dll
+0x00007ffefa540000 - 0x00007ffefa657000 	C:\Windows\System32\RPCRT4.dll
+0x00007ffefac80000 - 0x00007ffefac88000 	C:\Windows\System32\PSAPI.DLL
+0x00007ffee6f80000 - 0x00007ffee6f89000 	C:\Windows\SYSTEM32\WSOCK32.dll
+0x00007ffef3900000 - 0x00007ffef3934000 	C:\Windows\SYSTEM32\WINMM.dll
+0x00007ffeef990000 - 0x00007ffeef99a000 	C:\Windows\SYSTEM32\VERSION.dll
+0x00007ffefc420000 - 0x00007ffefc491000 	C:\Windows\System32\WS2_32.dll
+0x00007ffef8bb0000 - 0x00007ffef8bc8000 	C:\Windows\SYSTEM32\kernel.appcore.dll
+0x00007ffee3c20000 - 0x00007ffee3c31000 	C:\Program Files\JetBrains\JetBrains Rider 2020.3.4\jbr\bin\verify.dll
+0x00007ffef7430000 - 0x00007ffef765e000 	C:\Windows\SYSTEM32\DBGHELP.DLL
+0x00007ffefa8c0000 - 0x00007ffefac49000 	C:\Windows\System32\combase.dll
+0x00007ffefacd0000 - 0x00007ffefada7000 	C:\Windows\System32\OLEAUT32.dll
+0x00007ffeee4e0000 - 0x00007ffeee512000 	C:\Windows\SYSTEM32\dbgcore.DLL
+0x00007ffefa410000 - 0x00007ffefa48b000 	C:\Windows\System32\bcryptPrimitives.dll
+0x00007ffedf570000 - 0x00007ffedf599000 	C:\Program Files\JetBrains\JetBrains Rider 2020.3.4\jbr\bin\java.dll
+0x00007ffee3c10000 - 0x00007ffee3c1b000 	C:\Program Files\JetBrains\JetBrains Rider 2020.3.4\jbr\bin\jimage.dll
+0x00007ffee12c0000 - 0x00007ffee12d8000 	C:\Program Files\JetBrains\JetBrains Rider 2020.3.4\jbr\bin\zip.dll
+
+dbghelp: loaded successfully - version: 4.0.5 - missing functions: none
+symbol engine: initialized successfully - sym options: 0x614 - pdb path: .;C:\Program Files\JetBrains\JetBrains Rider 2020.3.4\jbr\bin;C:\Windows\SYSTEM32;C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.22621.1635_none_270f70857386168e;C:\Program Files\JetBrains\JetBrains Rider 2020.3.4\jbr\bin\server
+
+VM Arguments:
+java_command: org.jetbrains.git4idea.http.GitAskPassApp Username for 'https://github.com': 
+java_class_path (initial): C:/Program Files/JetBrains/JetBrains Rider 2020.3.4/plugins/git4idea/lib/git4idea-rt.jar;C:/Program Files/JetBrains/JetBrains Rider 2020.3.4/lib/xmlrpc-2.0.1.jar;C:/Program Files/JetBrains/JetBrains Rider 2020.3.4/lib/commons-codec-1.14.jar
+Launcher Type: SUN_STANDARD
+
+[Global flags]
+     intx CICompilerCount                          = 12                                        {product} {ergonomic}
+     uint G1ConcRefinementThreads                  = 13                                        {product} {ergonomic}
+   size_t G1HeapRegionSize                         = 1048576                                   {product} {ergonomic}
+    uintx GCDrainStackTargetSize                   = 64                                        {product} {ergonomic}
+   size_t InitialHeapSize                          = 266338304                                 {product} {ergonomic}
+   size_t MaxHeapSize                              = 4253024256                                {product} {ergonomic}
+   size_t MinHeapDeltaBytes                        = 1048576                                   {product} {ergonomic}
+    uintx NonNMethodCodeHeapSize                   = 7594288                                {pd product} {ergonomic}
+    uintx NonProfiledCodeHeapSize                  = 122031976                              {pd product} {ergonomic}
+    uintx ProfiledCodeHeapSize                     = 122031976                              {pd product} {ergonomic}
+    uintx ReservedCodeCacheSize                    = 251658240                              {pd product} {ergonomic}
+     bool SegmentedCodeCache                       = true                                      {product} {ergonomic}
+     bool UseCompressedClassPointers               = true                                 {lp64_product} {ergonomic}
+     bool UseCompressedOops                        = true                                 {lp64_product} {ergonomic}
+     bool UseG1GC                                  = true                                      {product} {ergonomic}
+     bool UseLargePagesIndividualAllocation        = false                                  {pd product} {ergonomic}
+
+Logging:
+Log output configuration:
+ #0: stdout all=warning uptime,level,tags
+ #1: stderr all=off uptime,level,tags
+
+Environment Variables:
+PATH=C:\Program Files\Git\mingw64\libexec\git-core;C:\Program Files\Git\mingw64\libexec\git-core;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\alexp\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files\Git\cmd;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\OpenSSL-Win64\bin;D:\Unity\Hub\Editor\2021.3.19f1\Editor\Data\PlaybackEngines\AndroidPlayer\OpenJDK\bin;C:\Users\alexp\AppData\Local\Microsoft\WindowsApps
+USERNAME=alexp
+DISPLAY=:0.0
+LC_ALL=en_US.UTF-8
+OS=Windows_NT
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 165 Stepping 2, GenuineIntel
+
+
+
+---------------  S Y S T E M  ---------------
+
+OS: Windows 10 , 64 bit Build 22621 (10.0.22621.1635)
+OS uptime: 0 days 16:03 hours
+Hyper-V role detected
+
+CPU:total 16 (initial active 16) (8 cores per cpu, 2 threads per core) family 6 model 165 stepping 2 microcode 0xe0, cmov, cx8, fxsr, mmx, sse, sse2, sse3, ssse3, sse4.1, sse4.2, popcnt, avx, avx2, aes, clmul, erms, 3dnowpref, lzcnt, ht, tsc, tscinvbit, bmi1, bmi2, adx, fma
+
+Memory: 4k page, system-wide physical 16219M (600M free)
+TotalPageFile size 29264M (AvailPageFile size 5M)
+current process WorkingSet (physical memory assigned to process): 10M, peak: 10M
+current process commit charge ("private bytes"): 17M, peak: 17M
+
+vm_info: OpenJDK 64-Bit Server VM (11.0.10+8-b1145.96) for windows-amd64 JRE (11.0.10+8-b1145.96), built on Feb 18 2021 01:38:16 by "" with MS VC++ 14.0 (VS2015)
+
+END.
