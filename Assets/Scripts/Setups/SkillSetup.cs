@@ -3,6 +3,8 @@ using System.Linq;
 using UnityEngine;
 using Sirenix.OdinInspector;
 using System.Collections.Generic;
+using Services;
+using Zenject;
 
 namespace Setups
 {
@@ -20,19 +22,25 @@ namespace Setups
         public int priceSkill;
 
         [SerializeField] public List<SkillSetup> nextSkillSetups;
+        private DataHelper _dataHelper;
 
-        public StateSkill GetStateSkill() => GameController.Insatance.SkillsDataModel.GetStateSkill(keySkill);
+        public void Initialize(DataHelper dataHelper)
+        {
+            _dataHelper = dataHelper;
+        }
+
+        public StateSkill GetStateSkill() => _dataHelper.SkillsDataModel.GetStateSkill(keySkill);
 
         public bool CantReversSkill() => nextSkillSetups.Any(x =>
-            GameController.Insatance.SkillsDataModel.GetSkill(x.keySkill).incomingPurchasedNodesCount == 1 &&
+            _dataHelper.SkillsDataModel.GetSkill(x.keySkill).incomingPurchasedNodesCount == 1 &&
             x.GetStateSkill() == StateSkill.Open);
 
         public bool CanBuySkill() =>
-            GameController.Insatance.SkillsDataModel.GetSkill(keySkill).incomingPurchasedNodesCount != 0;
+            _dataHelper.SkillsDataModel.GetSkill(keySkill).incomingPurchasedNodesCount != 0;
 
         public void UpgradeSkill()
         {
-            var skillDataModel = GameController.Insatance.SkillsDataModel;
+            var skillDataModel = _dataHelper.SkillsDataModel;
             foreach (var nextSkill in nextSkillSetups)
                 skillDataModel.GetSkill(nextSkill.keySkill).incomingPurchasedNodesCount++;
 
@@ -43,9 +51,9 @@ namespace Setups
         public void ReverseSkill()
         {
             if (typeSkill == TypeSkill.Main) return;
-            
-            var skillDataModel = GameController.Insatance.SkillsDataModel;
-            var skillPointDataModel = GameController.Insatance.SkillPointDataModel;
+
+            var skillDataModel = _dataHelper.SkillsDataModel;
+            var skillPointDataModel = _dataHelper.SkillPointDataModel;
             foreach (var nextSkill in nextSkillSetups)
                 skillDataModel.GetSkill(nextSkill.keySkill).incomingPurchasedNodesCount--;
 

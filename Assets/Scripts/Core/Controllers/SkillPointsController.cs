@@ -1,5 +1,6 @@
+using Zenject;
+using Services;
 using Core.Views;
-using DataModels;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -10,30 +11,29 @@ namespace Core.Controllers
         [SerializeField] private SkillPointsView _skillPointsView;
         [SerializeField] private Button _buttonAddSkillPoint;
 
-        private SkillPointDataModel _skillPointDataModel;
+        [Inject] private DataHelper _dataHelper;
 
         private void Start()
         {
             _buttonAddSkillPoint.onClick.AddListener(OnAppendSkillPoint);
-            _skillPointDataModel = GameController.Insatance.SkillPointDataModel;
-            _skillPointDataModel.OnChangeSkillPoints += UpdateViewSkillPoints;
+            _dataHelper.SkillPointDataModel.OnChangeSkillPoints += UpdateViewSkillPoints;
             UpdateViewSkillPoints();
         }
 
 
         private void OnDisable()
         {
-            _skillPointDataModel.OnChangeSkillPoints -= UpdateViewSkillPoints;
+            _dataHelper.SkillPointDataModel.OnChangeSkillPoints -= UpdateViewSkillPoints;
         }
 
         private void UpdateViewSkillPoints()
         {
-            _skillPointsView.UpdateTextSkillPoints(_skillPointDataModel.GetSkillPoint());
+            _skillPointsView.UpdateTextSkillPoints(_dataHelper.SkillPointDataModel.GetSkillPoint());
         }
 
         private void OnAppendSkillPoint()
         {
-            _skillPointDataModel.AppendSkillPoint(1);
+            _dataHelper.SkillPointDataModel.AppendSkillPoint(1);
         }
     }
 }

@@ -1,13 +1,17 @@
 using Setups;
 using Core.Views;
+using Services;
 using UnityEngine;
+using Zenject;
 
 namespace Core.Controllers
 {
     public class DialogSkillController : MonoBehaviour
     {
         [SerializeField] private DialogSkillView _dialogSkillView;
+        [Inject] private DataHelper _dataHelper;
         private SkillSetup _skillSetup;
+        
 
         private void OnEnable()
         {
@@ -49,10 +53,9 @@ namespace Core.Controllers
 
         private void OnBuySkill()
         {
-            var skillDataModel = GameController.Insatance.SkillPointDataModel;
-            if (_skillSetup.priceSkill <= skillDataModel.GetSkillPoint() && _skillSetup.CanBuySkill())
+            if (_skillSetup.priceSkill <= _dataHelper.SkillPointDataModel.GetSkillPoint() && _skillSetup.CanBuySkill())
             {
-                skillDataModel.SpendSkillPoint(_skillSetup.priceSkill);
+                _dataHelper.SkillPointDataModel.SpendSkillPoint(_skillSetup.priceSkill);
                 _skillSetup.UpgradeSkill();
                 UpdateViewDialog();
             }

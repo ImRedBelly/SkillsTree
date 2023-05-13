@@ -1,4 +1,7 @@
-﻿using Setups;
+﻿using System;
+using Setups;
+using Zenject;
+using Services;
 using Core.Views;
 using UnityEngine;
 
@@ -9,6 +12,11 @@ namespace Core.Controllers
         [SerializeField] protected SkillSetup _skillSetup;
         [SerializeField] private NodeSkillView _nodeSkillView;
         [SerializeField] private Color _activateColor, _deactivateColor;
+
+        [Inject] private DataHelper _dataHelper;
+        [Inject] private DialogHelper _dialogHelper;
+
+        private void Awake() => _skillSetup.Initialize(_dataHelper);
 
         private void OnEnable()
         {
@@ -42,7 +50,7 @@ namespace Core.Controllers
 
         private void OpenSkillDialog()
         {
-            GameController.Insatance.CreateDialogSkill(_skillSetup);
+            _dialogHelper.CreateDialogSkill(_skillSetup);
         }
     }
 }
