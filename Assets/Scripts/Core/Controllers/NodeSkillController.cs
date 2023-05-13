@@ -50,7 +50,7 @@ namespace Core.Controllers
 
         private void OpenSkillDialog()
         {
-            _dialogHelper.CreateDialogSkill(_skillSetup);
+            _dialogHelper.InitializeDialogSkill(_skillSetup);
         }
     }
 }
